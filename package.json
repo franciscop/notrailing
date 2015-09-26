@@ -1,0 +1,30 @@
+{
+  "name": "notrailing",
+  "version": "0.1.0",
+  "description": "No trailing slashes (except the root)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscop/notrailing.git"
+  },
+  "keywords": [
+    "trailing",
+    "slash",
+    "remove"
+  ],
+  "author": "Francisco Presencia Fandos",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/franciscop/notrailing/issues"
+  },
+  "homepage": "https://github.com/franciscop/notrailing",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
