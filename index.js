@@ -16,12 +16,12 @@ module.exports = function(options){
       return next();
 
     // The url is in the same format as we expect it
-    if (slash == (req.url.substr(-1) === '/')) {
+    if (options.slash == (req.url.substr(-1) === '/')) {
       return next();
     }
 
     // Get the wanted url
-    var newUrl = slash ? req.url + '/' : req.url.slice(0, -1);
+    var newUrl = options.slash ? req.url + '/' : req.url.slice(0, -1);
 
     if (options.clean) {
       return newUrl;
